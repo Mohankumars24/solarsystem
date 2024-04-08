@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        margin: 0%;
+        padding: 0%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(./image/space1.jpg);
+    }
+    #id1{
+        border: 1px solid white;
+        height: 2700px;
+        width: 2700px;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #id2{
+        border: 1px solid white;
+        height: 2600px;
+        width: 2600px;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #id3{
+        border: 1px solid white;
+        height: 2200px;
+        width: 2200px;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #id4{
+        border: 1px solid white;
+        height: 1900px;
+        width: 1900px;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #id5{
+        border: 1px solid white;
+        height: 1100px;
+        width: 1100px;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #id6{
+        border: 1px solid white;
+        height: 900px;
+        width: 900px;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #id7{
+        border: 1px solid white;
+        height: 700px;
+        width: 700px;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #id8{
+        border: 1px solid white;
+        height: 500px;
+        width: 500px;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #sun{
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+        background-color: yellow;
+        position: static;
+        box-shadow: 0px 0px 100px yellow;
+    }
+    
+    #mercury{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: cadetblue;
+        position: relative;
+        right: 50px;
+        box-shadow: 0px 0px 80px white;
+    }
+    #venus{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: rgb(235, 86, 86);
+        position: relative;
+        right: 90px;
+        box-shadow: 0px 0px 50px white;
+    }
+    #earth{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        background-color: skyblue;
+        position: relative;
+        right: 90px;
+        box-shadow: 0px 0px 50px white;
+    }
+    #mars{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        background-color: red;
+        position: relative;
+        right: 90px;
+        box-shadow: 0px 0px 50px white;
+    }
+    #jupiter{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-color: rgb(229, 11, 11);
+        position: relative;
+        right: 400px;
+        box-shadow: 0px 0px 50px white;
+    }
+    
+    #uranus{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: darkblue;
+        position: relative;
+        right: 140px;
+        box-shadow: 0px 0px 50px white;
+    }
+    #saturn{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: darkgray;
+        position: relative;
+        right: 190px;
+        box-shadow: 0px 0px 50px white;
+    }
+    #neptune{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: darkgray;
+        position: relative;
+        right: 50px;
+        box-shadow: 0px 0px 50px white;
+    }
+    div{
+        border: 1px solid black;
+        position: relative;
+        animation: rotat 20s linear infinite;
+    }
+    @keyframes rotat{
+        /* 0%{transform: rotate(0deg);} */
+        100%{transform: rotate(360deg);}
+    }
+</style>
+    
+    
+</head>
+<body>
+    
+    <div id="id1">
+        <div id="neptune"></div>
+        <div id="id2">
+            <div id="saturn"></div>
+            <div id="id3">
+                <div id="uranus"></div>
+                
+                <div id="id4">
+                    <div id="jupiter"></div>
+                    
+                    <div id="id5">
+                        <div id="mars"></div>
+                        
+                        <div id="id6">
+                            <div id="earth"></div>
+                            
+                            <div id="id7">
+                                <div id="venus"></div>
+                                
+                                <div  class="div1" id="id8">
+                                    <div id="mercury"></div>
+                                    <div id="sun"></div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
